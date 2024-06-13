@@ -2,6 +2,8 @@
 
 This repository contains a Streamlit application designed to manage a T-shirt inventory system through natural language processing (NLP). The system utilizes LangChain and OpenAI's GPT models to interpret user questions, generate SQL queries, and provide accurate responses based on the inventory data.
 
+![Tool Preview](view.png)
+
 ## Features
 
 - **NLP-Driven Q&A:** Users can ask natural language questions regarding the T-shirt inventory, and the system responds with precise answers generated from corresponding SQL queries.
@@ -85,3 +87,7 @@ streamlit run main.py
 "How many T-shirts do we have left for Nike in XS size and white color?"
 "How much is the total price of the inventory for all S-size T-shirts?"
 "If we sell all Levi’s T-shirts today with applied discounts, how much revenue will our store generate?"*
+
+### Demo Video
+
+[![Demo Video](OIP.jpg)](https://drive.google.com/file/d/1iSTnB5H8RtNnS-m3_vkuETGnSbZapK9L/view?usp=sharing)
