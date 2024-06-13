@@ -31,7 +31,7 @@ def get_few_shot_db_chain():
         
     llm = OpenAI(api_key=openai_api_key, temperature=0.1)  # Adjusted to use OpenAI
     db_user = "root"
-    db_password = urllib.parse.quote_plus("Sansaka14@")
+    db_password = urllib.parse.quote_plus("your_password")
     db_host = "localhost"
     db_name = "atliq_tshirts"
 
