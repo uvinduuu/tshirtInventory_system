@@ -1,0 +1,5 @@
+streamlit==1.10.0
+openai==0.27.0
+langchain==0.0.13
+pymysql==1.0.2
+python-dotenv==0.21.0
